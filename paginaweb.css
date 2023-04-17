@@ -1,0 +1,153 @@
+body {
+    margin: 0;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 16px;
+    }
+    
+    header {
+    background-color: #147671;
+    color: #ffffff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    }
+    
+    .logo h1 {
+    margin: 0;
+    }
+    
+    nav ul {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+    }
+    
+    nav li {
+    margin: 0 10px;
+    }
+    
+    nav a {
+    color: #fff;
+    text-decoration: none;
+    }
+    
+    .cart img {
+    width: 50px;
+    height: 50px;
+    }
+    
+    .banner img {
+    width: 100%;
+    }
+    
+    .banner-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    }
+    
+    .banner-text h2 {
+    font-size: 3em;
+    margin: 0;
+    }
+    
+    .banner-text p {
+    font-size: 1.5em;
+    }
+    
+    .products {
+    padding: 50px 0;
+    }
+    
+    .product-list {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    }
+    
+    .product {
+    width: 23%;
+    margin-bottom: 50px;
+    text-align: center;
+    }
+    
+    .product img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    }
+    
+    .product h3 {
+    margin-top: 20px;
+    margin-bottom: 10px;
+    }
+    
+    .product p {
+    font-size: 1.5em;
+    margin: 0;
+    }
+    
+    .buy-button {
+    display: inline-block;
+    background-color: rgb(25, 98, 123);
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    margin-top: 20px;
+    }
+    
+    .buy-button:hover {
+    background-color: #444;
+    }
+    
+    .categories {
+    background-color: #9fc1ca;
+    padding: 50px 0;
+    }
+    
+    .category-list {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    }
+    
+    .category {
+    width: 23%;
+    margin-bottom: 50px;
+    text-align: center;
+    }
+    
+    .category img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    }
+    
+    .category a {
+    display: block;
+    margin-top: 20px;
+    font-size: 1.5em;
+    }
+    
+    .footer {
+    background-color: #333;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    }
+    
+    .social-media {
+    display: flex;
+    }
+    
+    .social-media img {
+    width: 50px;
+    height: 50px;
+    margin-right: 10px;
+    }
