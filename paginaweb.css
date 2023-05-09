@@ -1,12 +1,16 @@
+
 body {
     margin: 0;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    
     font-size: 16px;
+    background-color: #524f4f;
     }
     
+
     header {
     background-color: #147671;
-    color: #ffffff;
+    color: #fbf6f6;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -39,15 +43,16 @@ body {
     }
     
     .banner img {
-    width: 100%;
+    width: 60%;
     }
     
     .banner-text {
+    color: #fff;
     position: absolute;
     top: 50%;
     left: 50%;
-    transform: translate(-50%, -50%);
-    text-align: center;
+    transform: translate(-1%, -130%);
+    text-align: right;
     }
     
     .banner-text h2 {
@@ -64,6 +69,7 @@ body {
     }
     
     .product-list {
+    color: #fff;
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
@@ -100,23 +106,112 @@ body {
     text-decoration: none;
     margin-top: 20px;
     }
-    
+
+button {
+  font-weight: bold;
+  color: white;
+  border-radius: 2rem;
+  width: 95.02px;
+  height: 42.66px;
+  border: none;
+  background-color: #147671;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+}
+
+button .span-mother {
+  display: flex;
+  overflow: hidden;
+}
+
+button:hover .span-mother {
+  position: absolute;
+}
+
+button:hover .span-mother span {
+  transform: translateY(1.2em);
+}
+
+button .span-mother span:nth-child(1) {
+  transition: .2s;
+}
+
+button .span-mother span:nth-child(2) {
+  transition: .3s;
+}
+
+button .span-mother span:nth-child(3) {
+  transition: .4s;
+}
+
+button .span-mother span:nth-child(4) {
+  transition: .5s;
+}
+
+button .span-mother span:nth-child(5) {
+  transition: .6s;
+}
+
+button .span-mother span:nth-child(6) {
+  transition: .7s;
+}
+
+button .span-mother2 {
+  display: flex;
+  position: absolute;
+  overflow: hidden;
+}
+
+button .span-mother2 span {
+  transform: translateY(-1.2em);
+}
+
+button:hover .span-mother2 span {
+  transform: translateY(0);
+}
+
+button .span-mother2 span {
+  transition: .2s;
+}
+
+button .span-mother2 span:nth-child(2) {
+  transition: .3s;
+}
+
+button .span-mother2 span:nth-child(3) {
+  transition: .4s;
+}
+
+button .span-mother2 span:nth-child(4) {
+  transition: .5s;
+}
+
+button .span-mother2 span:nth-child(5) {
+  transition: .6s;
+}
+
+button .span-mother2 span:nth-child(6) {
+  transition: .7s;
+}
     .buy-button:hover {
     background-color: #444;
     }
     
     .categories {
-    background-color: #9fc1ca;
+    background-color: #147671;
     padding: 50px 0;
     }
     
     .category-list {
+    color: #fff;
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
     }
     
     .category {
+    color: #fff;
     width: 23%;
     margin-bottom: 50px;
     text-align: center;
@@ -129,13 +224,14 @@ body {
     }
     
     .category a {
+    color: #f4f3f3;
     display: block;
     margin-top: 20px;
     font-size: 1.5em;
     }
     
     .footer {
-    background-color: #333;
+    background-color: #f8f4f4;
     color: #fff;
     display: flex;
     justify-content: space-between;
@@ -143,6 +239,8 @@ body {
     }
     
     .social-media {
+        background-color: #fff;
+     color: #fff;
     display: flex;
     }
     
